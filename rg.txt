@@ -1,7 +1,0 @@
-var dict = new Dictionary<string, int>();
-
-foreach (var word in file)
-  if (dict.ContainsKey(word))
-    dict[word]++;
-  else
-    dict[word] = 0

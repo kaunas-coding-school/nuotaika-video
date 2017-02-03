@@ -1,31 +1,45 @@
 <!DOCTYPE html>
 <html>
 <head>
-<style>
-div#box1 {
-	background: #9DCEFF;
-	width: 800px;
-	height: 200px;
-	position: absolute;
-	top: 50px;
-	left: -800px;
-}
-</style>
-<script>
-function slideIn(el){
-	var elem = document.getElementById(el);
-	elem.style.transition = "left 0.5s ease-in 0s";
-	elem.style.left = "0px";
-}
-function slideOut(el){
-	var elem = document.getElementById(el);
-	elem.style.transition = "left 0.5s ease-out 0s";
-	elem.style.left = "-800px";
-}
-</script>
+<audio autoplay>
+<source src="audio/howyoufeelcut.mp3" type="audio/mpeg">
+</audio>
+<title>MOOD</title>	
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<link rel="stylesheet" href="css/style">
+<script src="js/main"></script>
 </head>
 <body>
-<button onclick="slideIn('box1');">slide in</button>
-<div id="box1">Paspausk?</div>
-</body>
+	<div class="main-content">
+		<div id="clouds">
+			<div class="movement"><img src="pictures/bubw.png" width="350" height="200"><h1>How do You feel?</h1></div>
+			<div class="h10">
+			<a href="scared.html"><div class='circle s1 scared'><p class="inside">Scared</p></div></a>
+			</div>
+			<div class="h10">
+			<a href="sad.html"><div class='circle s2 sad'><p class="inside">Sad</p></div></a>
+			</div>
+			<div class="h10">
+			<a href="happy.html"><div class='circle s3 happy'><p class="inside">Happy</p></div></a>
+			</div>
+			<div class="h10">
+			<a href="disgusted.html"><div class='circle s4 disgusted'><p class="inside">Disgusted</p></div></a>
+			</div>
+			<div class="h10">
+			<a href="surprised.html"><div class='circle s5 surprised'><p class="inside">Surprised</p></div></a>
+			</div>
+			<div class="h10">
+			<a href="curious.html"><div class='circle s1 curious'><p class="inside">Curious</p></div></a>
+			</div>
+			<div class="h10">
+			<a href="hopeful.html"><div class='circle s2 hopeful'><p class="inside">Hopeful</p></div></a>
+			<div class="h10">
+			<a href="angry.html"><div class='circle s2 angry'><p class="inside">Angry</p></div></a>
+			<div class="cloud x1"></div>
+			<div class="cloud x2"></div>
+			<div class="cloud x3"></div>
+			<div class="cloud x4"></div>
+			<div class="cloud x5"></div>
+		</div>
+	</div>
 </html>

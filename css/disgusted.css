@@ -1,0 +1,42 @@
+
+
+.main-container{
+  background-position: center;
+  margin-left: -6pt;
+  margin-right: -6pt;
+  padding-top: 50pt;
+  margin-top: -70pt;
+  margin-bottom: -12pt;
+  position:sticky;
+
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffabf8+2,feb2f5+22,fbf3fd+100 */
+  background: rgb(255,171,248); /* Old browsers */
+  background: -moz-linear-gradient(top,  rgba(255,171,248,1) 2%, rgba(254,178,245,1) 22%, rgba(251,243,253,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  rgba(255,171,248,1) 2%,rgba(254,178,245,1) 22%,rgba(251,243,253,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  rgba(255,171,248,1) 2%,rgba(254,178,245,1) 22%,rgba(251,243,253,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffabf8', endColorstr='#fbf3fd',GradientType=0 ); /* IE6-9 */
+
+}
+
+
+h1 {
+  padding-top: 20pt;
+  align: center;
+  position: sticky;
+  font-size: 20pt;
+}
+
+
+p {
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+
+  padding-bottom: 20pt;
+  padding-left: 60pt;
+  padding-right: 60pt;
+}
+input[type="button"] {
+  padding: 15px 80px;
+  text-transform: uppercase;
+  border: 1px solid #000000;
+  cursor: pointer;
+}
